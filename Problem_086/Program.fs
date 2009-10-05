@@ -4,15 +4,16 @@
 let maxCount = 1000000
 
 // Является ли число целым.
-let IsInteger (a:float) =
-    a = (float)((int)a)
+let IsInteger (a:int) =
+    let sqrt = Math.Sqrt((float)a)
+    sqrt = (float)((int)sqrt)
+    
 
 // Кратчайший путь из вершины параллелепипеда в противолежащую.
 let GetShortestPath (a:int) (b:int) (c:int) = 
     let sum = b + c
     let sq = a * a + sum * sum
-    let value = Math.Sqrt((float)sq)
-    value
+    sq
     
 // Минимальное значение в листе.
 let rec Min x =
