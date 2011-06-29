@@ -34,8 +34,7 @@ let isReversibleNumber (x : int) : bool =
     |   (0, x) ->
         let sumOfNumbers = reversedX + x
         isNumberConsistsOfOnlyFromOddDigits sumOfNumbers
-    |   (_, _) -> 
-        false
+    |   (_, _) -> false
 
 let getReversibleNumbersCountFromNToM n m =
     printfn "Starting evaluation at the range [%A;%A)" n m
