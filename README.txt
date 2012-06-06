@@ -1,3 +1,2 @@
-Проект для сохранение решения задач проекта eulerproject.net
-
-+ Added new line.
+The repo to store solutions for ProjectEuler.net.
+Mostly on F#.
